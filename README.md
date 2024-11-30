@@ -52,5 +52,8 @@ This is the pin wiring used in the examples code.
 
 ## Installation 
 
-Upload the directory [st7735](st7735) to your Raspberry Pi Pico
-Upload the BMP files to the root directory to be accessed by [tftbmp.py](tftbmp.py)
+Upload the directory [st7735](st7735) to your Raspberry Pi Pico.
+
+Upload the BMP files to the root directory to be accessed by [tftbmp.py](tftbmp.py), 
+
+*NOTE* The BMP files will need to be in 24bit format. Thank to [Stu McGee](https://github.com/StuMunsonMcGee) for that information as I had forgotten to include it.

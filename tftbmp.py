@@ -9,6 +9,7 @@ tft.initr()
 tft.rgb(True)
 tft.fill(TFT.BLACK)
 
+# Note BMP file needs to be in 24 bit format
 f = open("tux.bmp", "rb")
 if f.read(2) == b"BM":  # header
     dummy = f.read(8)  # file size(4), creator bytes(4)
