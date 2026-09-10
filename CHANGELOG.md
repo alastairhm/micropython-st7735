@@ -7,10 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-09-10
+
 ### Added
 - `CLAUDE.md` with guidance for Claude Code sessions: deploy-to-board workflow,
   assumed Pico wiring, the buffer-less `TFT` driver architecture, per-tab init
   variants, and the `sysfont` layout.
+- This changelog.
 
 ### Fixed
 - `TFT.char()` glyph rendering (#3).
@@ -24,5 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 5x8 bitmap font (`st7735.sysfont`).
 - Examples: `hello_world.py`, `graphicstest.py`, `mandelbrot_tft.py`, `tftbmp.py`.
 
-[Unreleased]: https://github.com/alastairhm/micropython-st7735/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/alastairhm/micropython-st7735/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/alastairhm/micropython-st7735/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/alastairhm/micropython-st7735/releases/tag/1.0.0
