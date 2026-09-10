@@ -72,3 +72,6 @@ The driver code uses 2-space indent, `aName` argument prefixes, and `_name`
 private methods — a Guy Carver / boochow inheritance. The example scripts use
 plain 4-space PEP 8. Match whichever file you are editing. Commented-out
 `@micropython.native` decorators are deliberate — left as opt-in speedups.
+
+Record user-facing changes in `CHANGELOG.md` (Keep a Changelog format) under
+`## [Unreleased]`.
